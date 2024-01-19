@@ -1,6 +1,7 @@
+import Link from "next/link";
+
 const PostsPage = async () => {
   const res = await fetch("http://localhost:5001/posts", {
-
     // server side rendering....= eta sudhu server er jinish gulo sudumatro user req onujayei instant poriborton hoye jabe
     cache: "no-store",
 
@@ -25,7 +26,9 @@ const PostsPage = async () => {
             <p>Likes : {post.likesCount}</p>
           </div>
           <div className="card-actions justify-center my-2">
-            <button className="btn  btn-active btn-warning">See More</button>
+            <Link href={`/posts/${post.id}`}>
+              <button className="btn  btn-active btn-warning">See More</button>
+            </Link>
           </div>
         </div>
       ))}
