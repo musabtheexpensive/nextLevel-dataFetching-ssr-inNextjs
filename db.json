@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "5 Tips to Boost Your Productivity",
+      "description": "Discover simple yet effective strategies to get more done in less time and achieve your goals effortlessly.",
+      "likesCount": 254
+    },
+    {
+      "id": 2,
+      "title": "The Best Travel Destinations for Adventure Seekers",
+      "description": "Explore breathtaking landscapes, immerse yourself in diverse cultures, and push your limits with these thrilling adventures.",
+      "likesCount": 187
+    },
+    {
+      "id": 3,
+      "title": "How to Master the Art of Public Speaking",
+      "description": "Overcome your fear of public speaking and deliver captivating presentations with confidence and charisma.",
+      "likesCount": 123
+    },
+    {
+      "id": 4,
+      "title": "5 Must-Read Books for Personal Growth",
+      "description": "Expand your knowledge, gain new perspectives, and transform your life with these insightful and inspiring reads.",
+      "likesCount": 98
+    },
+    {
+      "id": 5,
+      "title": "DIY Projects to Upgrade Your Home on a Budget",
+      "description": "Unleash your creativity and create stylish, functional spaces without breaking the bank with these easy DIY projects.",
+      "likesCount": 76
+    },
+    {
+      "id": 6,
+      "title": "The Ultimate Guide to Plant-Based Cooking",
+      "description": "Embrace a healthier lifestyle and discover delicious, nutritious recipes that will satisfy your taste buds and nourish your body.",
+      "likesCount": 59
+    }
+  ]
+}
