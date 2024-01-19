@@ -1,10 +1,10 @@
 const PostsPage = async () => {
   const res = await fetch("http://localhost:5001/posts", {
 
-    // server side rendering....= eta sudhu server er jinish gulo sudumatro user req onujayei poriborton hoye jabe
+    // server side rendering....= eta sudhu server er jinish gulo sudumatro user req onujayei instant poriborton hoye jabe
     cache: "no-store",
 
-    // { static side rendering....= eta use korle notun kore npm run build ebong npm start dite hobe }
+    // { static side rendering....= eta use korle nirdhisto time por data update hobe }
     // next: {
     //   revalidate: 5,
     // },
