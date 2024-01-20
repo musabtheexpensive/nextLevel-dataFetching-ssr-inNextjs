@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export async function generateStaticParams() {
+  
+  return [{ id: '1' }, { id: '2' }]
+}
+
 const DetailPage = async ({ params }) => {
   console.log(params.id);
   const res = await fetch(`http://localhost:5001/posts/${params.id}`);
